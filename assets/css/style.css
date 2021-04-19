@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(90deg, #283048 0%, #859398 100%);
+    font-family: 'Roboto',
+    sans-serif;
+     
+
+}
+.grama{
+    background-image: url(/assets/images/grama.png);
+    
+   
+}
+
+.container{
+justify-content: space-around;
+margin-left: auto;
+margin-right: auto;
+
+  
+}
+
+
+h1, h2{color: rgb(245, 248, 245);}
+
+.sub{
+    color: #F7C38A;
+    
+}
+
+.col{
+    display: grid;    
+    background: #F7C38A;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin: 20px auto;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.header {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+
+.nav {
+    display: flex;    
+    margin: 20px auto;
+    justify-content: space-between;
+    width: 80%;
+}
+.quem-sou{
+    flex-wrap: nowrap;
+}
+
+.avatar {
+    flex-wrap: nowrap;
+    
+}
+
+
+.sobre{
+    color: rgb(84, 185, 93);
+}
+
+.img-bg{
+    background-image: url(/assets/images/grama.png);
+    display: flex;
+
+}
+
+.footer{
+    text-align: center;
+
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+    
