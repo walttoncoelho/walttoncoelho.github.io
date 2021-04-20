@@ -28,21 +28,23 @@ h1, h2{color: rgb(245, 248, 245);}
 }
 
 .col{
-    display: grid;    
+      
     background: #F7C38A;
     border-radius: 4px;
     margin-bottom: 5px;
     margin: 20px auto;
     padding: 10px;
+    display: grid;display: grid;  
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
+    width: 90%;
 }
 
 .header {
     display: flex;
     margin: 20px auto;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     
 }
 
@@ -50,7 +52,13 @@ h1, h2{color: rgb(245, 248, 245);}
     display: flex;    
     margin: 20px auto;
     justify-content: space-between;
-    width: 80%;
+   
+    max-width: 980px;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    padding: 10px;
+    
 }
 .quem-sou{
     flex-wrap: nowrap;
